@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersao Alura Gemini Aula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header >
+        <h1>Serras Brasileiras</h1>
+    </header>
+
+    
+    <main>
+        <!-- Caixa de Busca -->
+        <section class="busca">
+            <input type="text" placeholder="Digite sua busca" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <!-- Seção que inclui resultados da busca -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <p class="resultados-serras">RESULTADOS</p>
+            <p>Os resultados da sua busca aparecerão aqui.</p>
+            <!-- O conteúdo é injetado aqui via javascript, no arquivo app.js -->
+        </section>
+
+    </main>
+
+    <!-- Informações do rodapé da página. -->
+    <footer>
+        <p>Todos os direitos reservados. &copy; 2024
+        
+        <!-- e-mail fictíceo do site Serras Brasileiras -->
+        <p>Contato: serrasbrasileiras@emailserras.com<p>
+        
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
+

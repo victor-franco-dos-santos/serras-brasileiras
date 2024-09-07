@@ -1,0 +1,213 @@
+
+
+/* Estiliza o corpo da página */
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00bb6d; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    /* background-color: #1e523c; */
+    background: linear-gradient(45deg, #1e523c, #2c815e);
+    padding: 2rem;
+    border-radius: 4rem 4rem 0 0;
+    box-shadow: 2px 2px 4px #0b130e;
+    margin-bottom: 0.4rem;
+}
+
+.busca {
+    background-color: #1e523c;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(-68deg, #37745a, #2c5c48);
+    box-shadow: 2px 2px 5px #0b130e;    
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+
+
+/* Estiliza os inputs dentro das seções */
+.busca input {
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.8rem;
+    color: #047931;
+    font-size: 1rem;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px #0b130e;
+}
+
+/* Estiliza os botões dentro das seções */
+.busca button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1rem; /* Borda arredondada */
+    background-color:#599979; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    box-shadow: 2px 2px 4px #0b130e;
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: #054922; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-bottom: 5rem;
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    background: linear-gradient(-35deg, #1a4132, #30795bde);
+    box-shadow: 2px 2px 5px #0b130e;
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    /* background:#1e3b29;*/
+    background: linear-gradient(35deg, #1f5842, #2d815e);
+
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.466); /* Sombra leve */
+
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #ffffff; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Webkit gerado pelo Gemini para estilizar a barra de rolagem do conteiner de resultados de pesquisa. */
+.resultados-pesquisa::-webkit-scrollbar {
+    width: 8px;
+    background-color: #afe9d1;
+  }
+  
+  .resultados-pesquisa::-webkit-scrollbar-track {
+    background: #b0ecd8;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resultados-pesquisa::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #666666, #292929ea);
+    border-radius: 10px;
+  }
+
+/* Estiliza o rodapé da página */
+footer {
+    background: linear-gradient(to right, #c1ffd9, #5da378);
+    font-weight: bolder;
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-shadow: 0 2px 6px black;
+}
+
+/* Estilização dos parágrafos dentro de section class="resultados-pesquisa", é o texto que aparece na caixa de resultados informando que é ali que os resultados aparecerão, enquanto ainda não foi feita nenhuma busca */
+.resultados-serras {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+
+    section input {
+        width: 25rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+
+    }
+}

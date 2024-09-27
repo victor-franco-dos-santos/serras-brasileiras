@@ -17,7 +17,7 @@ Prepare-se para uma jornada épica pelas serras mais espetaculares do Brasil! �
 
 É simples! 
 
-1. **Digite a serra que você procura:** Digite o nome da serra, montanha ou palavra-chave relacionada no campo de busca e clique em pesquisar. 
+1. **Digite a serra que você procura:** Digite o nome da serra, montanha ou palavra-chave relacionada no campo de busca e clique em pesquisar.  Por exemplo, pesquise por: "serra", "montanha", "cachoeira".
 2. **Resultados:** Você encontrará sugestões dos mais belos lugares do Brasil para uma expedição! Sinta o ar puro novamente!
 3. **Variedade:** Acesse cada um dos resultados e explore todas as opções disponíveis em um só lugar!
 
